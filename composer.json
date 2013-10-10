@@ -1,0 +1,21 @@
+{
+    "name": "phillipsnick/ubuntu-power",
+    "description": "PHP script to SSH into Ubuntu and power down",
+    "homepage": "https://github.com/phillipsnick/ubuntu-power",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick Phillips",
+            "email": "nick@linkstudios.co.uk",
+            "homepage": "http://nickphillips.co/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "phpunit/phpunit": "3.7.*",
+        "phpseclib/phpseclib": "0.3.*@dev"
+    },
+    "autoload": {
+        "psr-0": {"Ubuntu": "./"}
+    }
+}
